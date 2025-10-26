@@ -7,7 +7,7 @@ from levels.level_manager import LevelManager
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Echoes of Aetheria - Level 1")
+pygame.display.set_caption("Mission's  Game - Level 1")
 clock = pygame.time.Clock()
 
 player = Player((100, 100))
@@ -46,3 +46,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
